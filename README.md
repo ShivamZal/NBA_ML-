@@ -19,3 +19,14 @@
 <p align="center">
   <img src="https://github.com/ShivamZal/NBA_ML-/blob/main/CM.PNG" alt="GitHub Logo" width="80%" height="60%">
 </p>
+
+<p>1. Confusion Matrix for Random Forest with Accuracy
+<p align="center">
+  <img src="https://github.com/ShivamZal/NBA_ML-/blob/main/4.PNG" alt="GitHub Logo" width="80%" height="60%">
+</p>
+
+<p>1. Confusion Matrix for Random Forest with Accuracy
+<p align="center">
+  <img src="https://github.com/ShivamZal/NBA_ML-/blob/main/5.PNG" alt="GitHub Logo" width="80%" height="60%">
+</p>
+
