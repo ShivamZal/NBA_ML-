@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Forecasting Home Team Wins or Losses Using ML Algorithms</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-  }
-  h1 {
-    color: #333;
-    text-align: center;
-    font-size: 2.5em;
-    margin-bottom: 30px;
-  }
-  h2 {
-    color: #555;
-    font-size: 1.8em;
-    margin-top: 20px;
-  }
-  p {
-    color: #666;
-    font-size: 1.1em;
-    margin-bottom: 20px;
-  }
-  ol {
-    color: #666;
-    font-size: 1.1em;
-    margin-bottom: 20px;
-    padding-left: 20px;
-  }
-  li {
-    margin-bottom: 10px;
-  }
-</style>
-</head>
+
 <body>
 <h1>Forecasting Home Team Wins or Losses Using ML Algorithms</h1>
 
@@ -51,12 +14,40 @@
 
 <ol>
   <li><strong>Data Cleaning and EDA:</strong> Witness the transformation of raw data into a treasure trove of insights through meticulous cleansing and Exploratory Data Analysis (EDA). Delve into captivating visualizations, including mesmerizing comparisons of total points scored by year and the ebbs and flows of victories over time.</li>
+  <p>1. Introduction page of the app
+<p align="center">
+  <img src="https://github.com/ShivamZal/NBA_ML-/blob/main/viz1.PNG" alt="GitHub Logo" width="80%" height="60%">
+</p>
+
+<p>1. Introduction page of the app
+<p align="center">
+  <img src="https://github.com/ShivamZal/NBA_ML-/blob/main/viz2.PNG" alt="GitHub Logo" width="80%" height="60%">
+</p>
+
+<p>1. Introduction page of the app
+<p align="center">
+  <img src="https://github.com/ShivamZal/NBA_ML-/blob/main/viz3.PNG" alt="GitHub Logo" width="80%" height="60%">
+</p>
   <li><strong>Merge:</strong> Enter a realm where disparate data converge to unveil hidden truths. Experience the synthesis of essential attributes such as city names, average capacity, and team identities, culminating in a comprehensive dataset poised for predictive analysis.</li>
   <li><strong>ML:</strong> Traverse the landscape of machine learning as we partition our dataset, fashioning training and testing sets with finesse. Immerse yourself in a symphony of statistical prowess, as we orchestrate the predictive power of variables ranging from points scored to defensive acumen. Behold the triumphant emergence of Logistic Regression, the champion of binary classification, amidst a backdrop of insightful confusion matrices.</li>
+  <p>1. Confusion Matrix for Random Forest with Accuracy
+<p align="center">
+  <img src="https://github.com/ShivamZal/NBA_ML-/blob/main/CM.PNG" alt="GitHub Logo" width="80%" height="60%">
+</p>
+
+<p>1. Confusion Matrix for Random Forest with Accuracy
+<p align="center">
+  <img src="https://github.com/ShivamZal/NBA_ML-/blob/main/viz4.PNG" alt="GitHub Logo" width="80%" height="60%">
+</p>
+
+<p>1. Confusion Matrix for Random Forest with Accuracy
+<p align="center">
+  <img src="https://github.com/ShivamZal/NBA_ML-/blob/main/viz5.PNG" alt="GitHub Logo" width="80%" height="60%">
+</p>
+
 </ol>
 
 <h2>Future Scope</h2>
 
 <p>The canvas of possibilities stretches far and wide, beckoning towards a future ripe with innovation. Envision the integration of cutting-edge NBA statistics—efficacious metrics like effective field goal percentage (eFG%), the sublime true shooting percentage (TS%), and the intricate dynamics of player combinations. In this ever-evolving landscape, our journey continues as we strive to refine our predictive prowess and illuminate the path to organizational excellence.</p>
 </body>
-</html>
