@@ -12,16 +12,16 @@
 
 <ol>
   <li><strong>Data Cleaning and EDA:</strong> This phase involves the removal of missing values, conversion of relevant columns to datetime and numerical types, and exploratory data analysis (EDA). Figures include comparisons of total points scored by year, wins by year, and line plots of home and away team FG% and 3pt%.</li>
- 
+ <p></p>
 <p align="center">
   <img src="https://github.com/ShivamZal/NBA_ML-/blob/main/viz1.PNG" alt="GitHub Logo" width="80%" height="60%">
 </p>
-
+<p></p>
 <p>1. Introduction page of the app
 <p align="center">
   <img src="https://github.com/ShivamZal/NBA_ML-/blob/main/viz2.PNG" alt="GitHub Logo" width="80%" height="60%">
 </p>
-
+<p></p>
 <p>1. Introduction page of the app
 <p align="center">
   <img src="https://github.com/ShivamZal/NBA_ML-/blob/main/viz3.PNG" alt="GitHub Logo" width="80%" height="60%">
@@ -30,16 +30,16 @@
   <li><strong>ML:</strong> This phase begins with splitting the data into training and testing sets (50-50 split). Selected variables include points scored by home and away teams, FG% from free throw, 3pt %, 2pt %, and various statistics like efficiency percentage, fouls, rebounds, steals, blocks, and assists. The target variable is binary, indicating whether the home team wins (1 for yes, 0 for no). Confusion matrices for Random Forests, KNN, and Logistic Regression are presented, with Logistic Regression performing the best due to its suitability for binary classification.</li>
 </ol>
 
-
+<p> </p>
 <p align="center">
   <img src="https://github.com/ShivamZal/NBA_ML-/blob/main/CM.PNG" alt="GitHub Logo" width="80%" height="60%">
 </p>
-
+<p></p>
 <p>1. Confusion Matrix for Random Forest with Accuracy
 <p align="center">
   <img src="https://github.com/ShivamZal/NBA_ML-/blob/main/viz4.PNG" alt="GitHub Logo" width="80%" height="60%">
 </p>
-
+<p></p>
 <p>1. Confusion Matrix for Random Forest with Accuracy
 <p align="center">
   <img src="https://github.com/ShivamZal/NBA_ML-/blob/main/viz5.PNG" alt="GitHub Logo" width="80%" height="60%">
