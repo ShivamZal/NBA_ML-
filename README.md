@@ -1,20 +1,18 @@
-
-<body>
 <h1>Forecasting Home Team Wins or Losses Using ML Algorithms</h1>
 
-<p>Welcome to an intriguing exploration into the realm of NBA game predictions! Our endeavor revolves around the fascinating intersection of data science and basketball, as we endeavor to unravel the enigma of forecasting whether the home team emerges victorious or succumbs to defeat.</p>
+<p>This project focuses on utilizing machine learning algorithms to forecast whether the home team will win or lose in NBA games. The dataset spans from 2003 to 2022, comprising over 25,000 rows with final scores of all games. Key attributes include home points, away points, field goal percentage (FG%), three-point percentage (3pt %), advanced stats, and defensive stats.</p>
 
 <h2>Algorithms and Libraries</h2>
 
-<p>Embark on this journey armed with state-of-the-art machine learning algorithms including the formidable Random Forests, the discerning K-Nearest Neighbors (KNN), and the sophisticated Logistic Regression. Through the seamless integration of Pandas, Scikit-learn, Seaborn, NumPy, and MLxtend libraries, we unveil insights from the depths of NBA game data.</p>
+<p>The project implements three machine learning algorithms: Random Forests, K-Nearest Neighbors (KNN), and Logistic Regression. Among these, Random Forests and KNN are classification algorithms, while Logistic Regression serves as a regression algorithm. Libraries such as Pandas, Scikit-learn (sklearn), Seaborn, NumPy, and MLxtend are utilized for data manipulation, visualization, and machine learning tasks.</p>
 
 <h2>Project Question</h2>
 
-<p>Our quest is simple yet profound: Can historical data illuminate the path to predicting the outcome of NBA games? The saga unfolds across three meticulously crafted chapters:</p>
+<p>The central question driving the project is: Can past data predict whether the home team will win? The project is structured into three main files:</p>
 
 <ol>
-  <li><strong>Data Cleaning and EDA:</strong> Witness the transformation of raw data into a treasure trove of insights through meticulous cleansing and Exploratory Data Analysis (EDA). Delve into captivating visualizations, including mesmerizing comparisons of total points scored by year and the ebbs and flows of victories over time.</li>
-  <p>1. Introduction page of the app
+  <li><strong>Data Cleaning and EDA:</strong> This phase involves the removal of missing values, conversion of relevant columns to datetime and numerical types, and exploratory data analysis (EDA). Figures include comparisons of total points scored by year, wins by year, and line plots of home and away team FG% and 3pt%.</li>
+ 
 <p align="center">
   <img src="https://github.com/ShivamZal/NBA_ML-/blob/main/viz1.PNG" alt="GitHub Logo" width="80%" height="60%">
 </p>
@@ -28,9 +26,11 @@
 <p align="center">
   <img src="https://github.com/ShivamZal/NBA_ML-/blob/main/viz3.PNG" alt="GitHub Logo" width="80%" height="60%">
 </p>
-  <li><strong>Merge:</strong> Enter a realm where disparate data converge to unveil hidden truths. Experience the synthesis of essential attributes such as city names, average capacity, and team identities, culminating in a comprehensive dataset poised for predictive analysis.</li>
-  <li><strong>ML:</strong> Traverse the landscape of machine learning as we partition our dataset, fashioning training and testing sets with finesse. Immerse yourself in a symphony of statistical prowess, as we orchestrate the predictive power of variables ranging from points scored to defensive acumen. Behold the triumphant emergence of Logistic Regression, the champion of binary classification, amidst a backdrop of insightful confusion matrices.</li>
-  <p>1. Confusion Matrix for Random Forest with Accuracy
+  <li><strong>Merge:</strong> In this step, the two files are merged to incorporate additional information such as city names, average capacity, and team names into the dataset. Variable selection is also performed here.</li>
+  <li><strong>ML:</strong> This phase begins with splitting the data into training and testing sets (50-50 split). Selected variables include points scored by home and away teams, FG% from free throw, 3pt %, 2pt %, and various statistics like efficiency percentage, fouls, rebounds, steals, blocks, and assists. The target variable is binary, indicating whether the home team wins (1 for yes, 0 for no). Confusion matrices for Random Forests, KNN, and Logistic Regression are presented, with Logistic Regression performing the best due to its suitability for binary classification.</li>
+</ol>
+
+
 <p align="center">
   <img src="https://github.com/ShivamZal/NBA_ML-/blob/main/CM.PNG" alt="GitHub Logo" width="80%" height="60%">
 </p>
@@ -49,5 +49,4 @@
 
 <h2>Future Scope</h2>
 
-<p>The canvas of possibilities stretches far and wide, beckoning towards a future ripe with innovation. Envision the integration of cutting-edge NBA statistics—efficacious metrics like effective field goal percentage (eFG%), the sublime true shooting percentage (TS%), and the intricate dynamics of player combinations. In this ever-evolving landscape, our journey continues as we strive to refine our predictive prowess and illuminate the path to organizational excellence.</p>
-</body>
+<p>There is ample opportunity for future enhancements, such as experimenting with different search parameters and incorporating advanced NBA statistics like effective field goal percentage (eFG%), true shooting percentage (TS%), player combinations, and more complex metrics. These advancements can further refine the predictive capabilities of the model and contribute to improved decision-making within NBA organizations.</p>
